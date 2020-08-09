@@ -1,0 +1,101 @@
+2020-08-09 23:22:41.369  INFO 14240 --- [restartedMain] c.d.DeptempldapapplnApplication          : Starting DeptempldapapplnApplication on LAPTOP-1NN8E0HU with PID 14240 (C:\Users\UDHAYA\Desktop\udhaysts\deptempldapappln\target\classes started by udhaya2cse in C:\Users\UDHAYA\Desktop\udhaysts\deptempldapappln)
+2020-08-09 23:22:41.378  INFO 14240 --- [restartedMain] c.d.DeptempldapapplnApplication          : No active profile set, falling back to default profiles: default
+2020-08-09 23:22:41.469  INFO 14240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-09 23:22:41.469  INFO 14240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-09 23:22:42.754  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-09 23:22:42.754  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-09 23:22:42.838  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 3 JPA repository interfaces.
+2020-08-09 23:22:42.848  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-09 23:22:42.849  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2020-08-09 23:22:42.863  INFO 14240 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.deptempldapappln.dao.DeptPageRepo. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2020-08-09 23:22:42.864  INFO 14240 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.deptempldapappln.dao.DeptRepo. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2020-08-09 23:22:42.864  INFO 14240 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data LDAP - Could not safely identify store assignment for repository candidate interface com.deptempldapappln.dao.EmpRepo. If you want this repository to be a LDAP repository, consider annotating your entities with one of these annotations: org.springframework.ldap.odm.annotations.Entry (preferred), or consider extending one of the following types with your repository: org.springframework.data.ldap.repository.LdapRepository.
+2020-08-09 23:22:42.864  INFO 14240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 LDAP repository interfaces.
+2020-08-09 23:22:43.823  INFO 14240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9886 (http)
+2020-08-09 23:22:43.834  INFO 14240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-09 23:22:43.835  INFO 14240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-09 23:22:43.837  INFO 14240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-09 23:22:43.838  INFO 14240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-09 23:22:43.839  INFO 14240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-09 23:22:43.843  INFO 14240 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-09 23:22:44.282  INFO 14240 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-09 23:22:44.288  INFO 14240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-09 23:22:44.288  INFO 14240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2818 ms
+2020-08-09 23:22:44.505  INFO 14240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-09 23:22:44.676  INFO 14240 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-09 23:22:44.751  WARN 14240 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-09 23:22:44.754  INFO 14240 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-09 23:22:44.948  INFO 14240 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-09 23:22:44.973  INFO 14240 --- [restartedMain] s.s.l.DefaultSpringSecurityContextSource :  URL 'ldap://localhost:8389/dc=springframework,dc=org', root DN is 'dc=springframework,dc=org'
+2020-08-09 23:22:44.978  INFO 14240 --- [restartedMain] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2020-08-09 23:22:45.087  INFO 14240 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-09 23:22:45.123  INFO 14240 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e7c0f81, org.springframework.security.web.context.SecurityContextPersistenceFilter@11a195f8, org.springframework.security.web.header.HeaderWriterFilter@1c48a91f, org.springframework.security.web.csrf.CsrfFilter@1a155694, org.springframework.security.web.authentication.logout.LogoutFilter@18886afe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4653a7d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@693fc72b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7e0a4409, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b408a6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bb498fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61d905b2, org.springframework.security.web.session.SessionManagementFilter@203d152a, org.springframework.security.web.access.ExceptionTranslationFilter@57c51698, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a7caa35]
+2020-08-09 23:22:45.909  INFO 14240 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-09 23:22:45.933  INFO 14240 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-09 23:22:46.282  INFO 14240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-09 23:22:46.357  INFO 14240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9886 (http) with context path ''
+2020-08-09 23:22:46.362  INFO 14240 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-09 23:22:48.837  INFO 14240 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-09 23:22:48.846  INFO 14240 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 23:22:49.295  INFO 14240 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-09 23:22:49.302  INFO 14240 --- [restartedMain] c.d.DeptempldapapplnApplication          : Started DeptempldapapplnApplication in 8.488 seconds (JVM running for 10.107)
+2020-08-09 23:23:12.415  INFO 14240 --- [http-nio-9886-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-09 23:23:12.416  INFO 14240 --- [http-nio-9886-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-09 23:23:12.423  INFO 14240 --- [http-nio-9886-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-09 23:23:20.303  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:23:20.305  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:24:52.540  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:24:52.541  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:25:06.810  INFO 14240 --- [http-nio-9886-exec-2] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:25:06.810  INFO 14240 --- [http-nio-9886-exec-2] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:30:10.600  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:30:10.602  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:30:56.150  INFO 14240 --- [http-nio-9886-exec-9] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:30:56.151  INFO 14240 --- [http-nio-9886-exec-9] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:31:01.577  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:31:01.577  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:31:03.528  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : Getting list of departments
+2020-08-09 23:31:12.278  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:31:12.278  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:31:21.517  INFO 14240 --- [http-nio-9886-exec-1] c.d.controller.DeptEmpController         : edit department 
+2020-08-09 23:31:37.572  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:31:37.573  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:32:14.184  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:32:14.184  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:32:37.901  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : edit department 
+2020-08-09 23:32:39.122  INFO 14240 --- [http-nio-9886-exec-8] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:32:39.122  INFO 14240 --- [http-nio-9886-exec-8] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:32:43.575  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : Getting list of departments
+2020-08-09 23:32:48.467  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:32:48.468  INFO 14240 --- [http-nio-9886-exec-4] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:32:54.280  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:32:54.280  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:20.781  INFO 14240 --- [http-nio-9886-exec-8] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:20.781  INFO 14240 --- [http-nio-9886-exec-8] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:24.578  INFO 14240 --- [http-nio-9886-exec-10] c.d.controller.DeptEmpController         : Getting list of departments
+2020-08-09 23:34:27.959  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : edit department 
+2020-08-09 23:34:29.251  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:29.252  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:36.570  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:36.571  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:45.792  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:45.793  INFO 14240 --- [http-nio-9886-exec-7] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:48.762  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:48.762  INFO 14240 --- [http-nio-9886-exec-3] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:53.108  INFO 14240 --- [http-nio-9886-exec-2] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:53.108  INFO 14240 --- [http-nio-9886-exec-2] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:57.964  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:57.964  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:34:59.685  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:34:59.685  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:35:17.581  INFO 14240 --- [http-nio-9886-exec-1] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:35:17.582  INFO 14240 --- [http-nio-9886-exec-1] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:35:22.738  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:35:22.739  INFO 14240 --- [http-nio-9886-exec-5] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:35:28.025  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : User logged in successfully
+2020-08-09 23:35:28.026  INFO 14240 --- [http-nio-9886-exec-6] c.d.controller.DeptEmpController         : setting pagination for department table
+2020-08-09 23:35:37.185  INFO 14240 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-08-09 23:35:37.645  INFO 14240 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 23:35:37.658  INFO 14240 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-09 23:35:37.660  INFO 14240 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-09 23:35:37.674  INFO 14240 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
